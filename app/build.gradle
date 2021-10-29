@@ -36,9 +36,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation "org.altbeacon:android-beacon-library:2.+"
+    implementation 'com.plotprojects:plot-android:3.13.1'
+    implementation 'com.plotprojects:plot-interaction-tracer-lib:custom-mei-kontakt-1.0.0-beta'
 
-    implementation 'com.plotprojects:plot-android:1.0.0.custom-5m'
-    implementation 'com.plotprojects:plot-android:3.+'
     implementation 'androidx.core:core:1.1.0'
     implementation 'androidx.work:work-runtime:2.2.0'
     implementation 'androidx.work:work-gcm:2.2.0'

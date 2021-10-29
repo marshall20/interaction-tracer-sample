@@ -1,0 +1,5 @@
+{
+  "publicToken":"INSERT_YOUR_TOKEN",
+  "enableOnFirstRun": true,
+  "debug": true
+}

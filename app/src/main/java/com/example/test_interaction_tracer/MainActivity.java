@@ -14,6 +14,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.test_interaction_tracer.databinding.ActivityMainBinding;
+import com.plotprojects.addon.interaction_tracer.InteractionTracerAddon;
 import com.plotprojects.retail.android.PlotAddon;
 import com.plotprojects.retail.android.Plot;
 
@@ -52,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void init() {
-        PlotAddon.register(InteractionTracerAddon.class, this);
+        Plot.init(this);
+        PlotAddon.register(InteractionTracerAddon.class, this); // Where you init Plot you should also register the init the interaction tracer
     }
 
     @Override

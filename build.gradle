@@ -4,7 +4,9 @@ buildscript {
         google()
         mavenCentral()
 
-
+        maven {
+            url 'https://maven-repo.plotprojects.com'
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.2"
