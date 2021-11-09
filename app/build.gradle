@@ -5,12 +5,13 @@ plugins {
 
 
 android {
-    compileSdk 31
+    compileSdk 30
 
     defaultConfig {
         applicationId "com.example.test_interaction_tracer"
         minSdk 28
-        targetSdk 31
+        targetSdk 30
+        maxSdkVersion 30
         versionCode 1
         versionName "1.0"
 
@@ -37,8 +38,8 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
     implementation "org.altbeacon:android-beacon-library:2.+"
-    implementation 'com.plotprojects:plot-android:3.13.1'
-    implementation 'com.plotprojects:plot-interaction-tracer-lib:custom-mei-kontakt-1.0.0-beta'
+    implementation 'com.plotprojects:plot-android:3.15.0-beta'
+    implementation 'com.plotprojects:plot-interaction-tracer-lib:custom-mei-kontakt-1.1.0-beta'
 
     implementation 'androidx.core:core:1.1.0'
     implementation 'androidx.work:work-runtime:2.2.0'
